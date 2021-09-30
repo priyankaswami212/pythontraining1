@@ -1,5 +1,10 @@
 name=input("enter name")
 age=int(input("enter age"))
-age=100-age
-year=2021+age
-print("In the year ",year,"you'll be 100")
+
+def year100(age):
+
+    age=100-age
+    year=2021+age
+    return year
+
+print(year100(age),"In this age you'll turn 100")
