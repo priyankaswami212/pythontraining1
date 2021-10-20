@@ -8,3 +8,9 @@ elif(no1> 5):
     print(sub)
 else:
     print("Hello")
+
+x = ['ab', 'cd']
+for i in x:
+    i.upper()
+    print(i.upper())
+print(x)
